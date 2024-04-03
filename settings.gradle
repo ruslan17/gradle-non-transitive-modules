@@ -1,0 +1,5 @@
+rootProject.name = 'gradle-non-transitive-modules'
+include 'client-a'
+include ':service-b:service-b-service'
+include ':service-b:service-b-client'
+
