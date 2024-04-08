@@ -1,11 +1,7 @@
 package org.example;
 
-public class ServiceBClient {
+public interface ServiceBClient {
 
-    ServiceB serviceB = new ServiceB();
-
-    public String get() {
-        return serviceB.get();
-    }
+    String get();
 
 }

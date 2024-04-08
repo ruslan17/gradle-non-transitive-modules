@@ -1,8 +1,9 @@
 package org.example;
 
-public class ServiceB {
+public class ServiceB implements ServiceBClient {
 
     public String get() {
+
         return "Service B";
     }
 
